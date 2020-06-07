@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+
+h3
+{
+	text-align: left;
+}
+
+.bibtexitem
+{
+	font-family: 'Source Sans Pro';
+}

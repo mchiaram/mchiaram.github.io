@@ -1,0 +1,13 @@
+# jemdoc: menu{MENU}{courses.html}
+
+== Courses 
+
+
+*[courses/finite_elements_i/index.html CEE 513 - Introduction to finite element methods (Fall 2017, 2018)]*: 
+The course introduces fundamental concepts and technologies of primal finite element methods for linear elliptic boundary value problems.
+The course begins with an overview of finite element methods for a one-dimensional model problem including the weak, Galerkin and matrix forms, error analysis and superconvergence.
+Extension of the finite element to multiple dimensions are carried out, first for second order scalar valued equations, such as the heat equation and Darcy’s flow in porous materials, and later extended to vector valued equations such as the elasticity equations. The course then concludes with the C0 approach to plates and beams and contrasts it with matrix structural analysis approaches.
+The element formulations and data structures, isoparametric interpolations, locking issues, analysis of errors and convergence of approximations, as well as treatment of constraints and variational crimes will all be discussed.
+
+*[courses/continuum_mechanics/index.html CEE 530 - Continuum Mechanics and Thermodynamics (Spring 2018)]*:  The course covers the fundamentals of the mechanics and thermodynamics of continua. It begins by reviewing concepts of tensor analysis on manifolds and tensor calculus. It then proceed by developing the fundamental concepts of the kinematics of a deforming continuum. The notion of stress is then intro- duced and various measures of stress, with their respective energy-conjugate strain measures, will be discussed. Balance laws will be presented discussing conservation of mass, balance of momentum and moment of momentum, as well as energy. Balance of energy in thermodynamics will also be discussed alongside the restrictions of the second law on constitutive theories. Consti- tutive theories will be discussed and specific examples will be explored. Vari- ational principles will be presented and the Euler-Lagrange equations will be re-connected with balance laws.
+

@@ -1,0 +1,34 @@
+# jemdoc: menu{MENU}{homeworks.html}
+
+== Homeworks 
+[documents/homeworks/plain_homework.tex Here] you can find a template LaTex file that you may use for your homework. This two utility files ([documents/useful_packages.tex useful packages] and [documents/short_notation.tex short notation])
+are loaded as auxiliary files.
+
+-  [documents/homeworks/homework_1.pdf Homework \# 1] 
+-- [documents/homeworks/homework_1_solutions.pdf (Solution)]
+-  [documents/homeworks/homework_2.pdf Homework \# 2]  
+-- [documents/homeworks/homework_2_solutions.pdf (Solution)]
+-  [documents/homeworks/homework_3.pdf Homework \# 3]  
+-- [documents/homeworks/homework_3_solutions.pdf (Solution)]
+-  [documents/homeworks/homework_4.pdf Homework \# 4]  
+-- [documents/homeworks/homework_4_solutions.pdf (Solution)]
+-  [documents/homeworks/homework_5.pdf Homework \# 5] 
+-- [documents/homeworks/code_homework_5/lagrange_polynomials.py (Code) Lagrange Basis]  
+-- [documents/homeworks/code_homework_5/lagrange_interpolation.py (Code) Lagrange Interpolation]  
+-- [documents/homeworks/code_homework_5/finite_element_example.py (Code) One-dim Finite Element]  
+-- [documents/homeworks/homework_5_solutions.pdf (Solution)]
+-  [documents/homeworks/homework_6.pdf Homework \# 6] 
+#-- [documents/homeworks/code_homework_6/lagrange_polynomials.py (Code) Lagrange Basis]  
+#-- [documents/homeworks/code_homework_6/finite_element_example.py (Code) Finite Element Driver]  
+-- [documents/homeworks/code_homework_6/fenics_truss.py (Code) Intro to FEniCS]  
+--  [documents/homeworks/homework_6_solutions.pdf Homework \# 6 (Solution)] 
+#-- [documents/homeworks/homework_6_solution.pdf (Solution)]
+-  [documents/homeworks/homework_7.pdf Homework \# 7] 
+-- [documents/homeworks/code_homework_7/homework_7_code.tar.gz (Code) ]
+-- [documents/homeworks/homework_7_solution.pdf (Solution)]
+-  [documents/homeworks/homework_8.pdf Homework \# 8] 
+-- [documents/homeworks/code_homework_8/homework_8_code.tar.gz (Code) ]
+-- [documents/homeworks/homework_8_solution.pdf (Solution)]
+#-  [documents/homeworks/homework_9.pdf Homework \# 9] 
+#-- [documents/homeworks/code_homework_9/homework_9_code.tar.gz (Code) ]
+#-- [documents/homeworks/homework_9_solution.pdf (Solution)]

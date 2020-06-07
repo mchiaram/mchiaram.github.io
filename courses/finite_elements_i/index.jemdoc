@@ -1,0 +1,84 @@
+# jemdoc: menu{MENU}{index.html}
+
+== Logistics 
+
+*Lectures:* TTh 11:00am-12:20pm, Friend Center 008 \n
+*Precepts:* W 7:30pm-8:20pm, Friend Center 008\n
+
+*Instructor:* Maurizio M. Chiaramonte \n
+Email: [mailto:chiaramonte@princeton.edu chiaramonte at princeton.edu] \n
+Office hours: W 1:00pm - 3:00pm, E324\n
+
+*Assistant Instructor:* Isabel Morris \n
+Email: [mailto:imorris@princeton.edu imorris at princeton.edu] \n
+Office hours: W 8:20pm-10:20pm, Friend Center 008\n
+
+== News
+{{<div style="height:20vh; overflow:scroll;">}}
+#- \[Dec. 15, 2017\] [documents/project/final_project.pdf Final Project]  posted
+#- \[Dec. 8, 2017\] [documents/homeworks/homework_9.pdf Homework \# 9]  posted
+#- \[Dec. 8, 2017\] [documents/homeworks/homework_7_solution.pdf Homework \# 7 Solution]  posted
+#- \[Dec. 1, 2017\] [documents/homeworks/homework_8.pdf Homework \# 8]  posted
+#- \[Nov. 22, 2017\] Lecture slides/notes posted
+#- \[Nov. 22, 2017\] [documents/homeworks/homework_6_solution.pdf Homework \# 6 Solution]  posted
+#- \[Nov. 22, 2017\] [documents/homeworks/homework_7.pdf Homework \# 7]  posted
+#- \[Nov. 14, 2017\] [documents/fenics_setup_adroit.pdf Running FEniCS on Adroit]  posted
+#- \[Nov. 14, 2017\] [documents/homeworks/homework_5.pdf Homework \# 5 Solution]  posted
+#- \[Nov. 10, 2017\] [documents/homeworks/homework_5.pdf Homework \# 6]  posted
+#- \[Oct. 30, 2017\] [documents/homeworks/homework_5.pdf Homework \# 5]  posted
+#- \[Oct. 22, 2017\] The [documents/project/project.pdf project description] is posted
+#- \[Oct. 21, 2017\] [documents/homework_4_solution.pdf Homework \# 4 solution]  posted
+#- \[Oct. 20, 2017\] [documents/mid_term_sample.pdf Practice mid-term questions] posted
+#- \[Oct 20, 2017\] [documents/mid_term_tpics.pdf Mid-term exams general comments] posted
+#- \[Oct. 14, 2017\] [documents/homeworks/homework_3_solution.pdf Homework \# 3 Solution] posted
+#- \[Oct 13, 2017\] [documents/homeworks/homework_4.pdf Homework \# 4] posted
+#- \[Oct. 2, 2017\] [documents/homeworks/homework_2_solution.pdf Homework \# 2 Solution] posted
+#- \[Oct 6, 2017\] [documents/homeworks/homework_1.pdf Homework \# 3] posted
+#- \[Oct. 2, 2017\] [documents/homeworks/homework_2_solution.pdf Homework \# 2 Solution] posted
+- \[Dec 13, 2018\] [documents/homeworks/final_project.pdf Final Project] posted 
+- \[Dec 8, 2018\] [documents/homeworks/homework_8.pdf Homework \# 8] posted
+- \[Dec 8, 2018\] [documents/homeworks/homework_7_solutions.pdf Homework \# 7 solution] posted
+- \[Dec 2, 2018\] [documents/homeworks/homework_7.pdf Homework \# 7] posted
+- \[Nov 27, 2018\] [documents/homework_6_solutions.pdf Homework \# 6 solution]  posted
+- \[Nov 27, 2018\] [documents/homework_5_solutions.pdf Homework \# 5 solution]  posted
+- \[Nov 16, 2018\] [documents/homeworks/homework_6.pdf Homework \# 6] posted
+- \[Nov 12, 2018\] [documents/homework_4_solutions.pdf Homework \# 4 solution]  posted
+- \[Nov 9, 2018\] [documents/homeworks/homework_5.pdf Homework \# 5] posted
+- \[Oct. 31, 2018] [project.html Final project] posted
+- \[Oct 27, 2017\] [documents/homeworks/homework_4.pdf Homework \# 4] posted
+- \[Oct 22, 2017\] [documents/mid_term_sample_sol.pdf Practice mid-term questions solution] posted
+- \[Oct 22, 2017\] [documents/homeworks/homework_3_solutions.pdf Homework \# 3 Solution] posted
+- \[Oct 12, 2018\] [documents/homeworks/homework_3.pdf Homework \# 3] posted
+- \[Oct 12, 2018\] [documents/homeworks/homework_2_solutions.pdf Homework \# 2 Solution] posted
+- \[Oct 10, 2017\] [documents/mid_term_sample.pdf Practice mid-term questions] posted
+- \[Oct 10, 2017\] [documents/mid_term_tpics.pdf Mid-term exams general comments] posted
+- \[Oct 5, 2018\] [documents/homeworks/homework_2.pdf Homework \# 2] posted
+- \[Oct 4, 2018\] [documents/homeworks/homework_1_solutions.pdf Homework \# 1 Solution] posted
+- \[Sept 25, 2018\] [https://catalog.princeton.edu/catalog/10830559 Additional tensor reading (Chapter 2)]
+- \[Sept 22, 2018\] [documents/homeworks/homework_1.pdf Homework \# 1] posted
+{{</div>}}
+
+== Upcoming Events
+{{<div style="height:10vh; overflow:scroll;">}}
+#- \[Nov 7, 2017] [documents/project/project.pdf Project] proposal due
+- \[Oct 25, 2018] Mid-term exam in Friend 008 from 11:00am to 12:20pm.
+- \[Sept 13, 2017] Welcome to Introduction to Finite Element Methods' first class!
+
+{{</div>}}
+
+
+== Course Overview 
+
+The course introduces fundamental concepts and technologies of primal finite element methods for linear elliptic boundary value problems.  
+The course covers an overview of finite element methods for a one-dimensional model problem including the weak, Galerkin and matrix forms, error analysis and superconvergence. The direct stiffness method of structural analysis is introduced to present the notion of assembly.
+Extension of the finite element to multiple dimensions are carried out, first for second order scalar valued equations, such as the heat equation and Darcy's flow in porous materials, and later extended to vector valued equations such as the elasticity equations. The course then concludes with the {{C<sup>0</sup>}} approach to plates and beams and contrasts it with matrix structural analysis approaches.
+The element formulations and data structures, isoparametric interpolations, locking issues, analysis of errors and convergence of approximations, as well as treatment of constraints and variational crimes will all be discussed. 
+
+In the course we will use python for computing assignments and we will also use the high-level finite element toolkit [https://fenicsproject.org FEniCS] to explore properties of finite element methods and build simulations.
+
+
+[documents/finite_element_methods_361.pdf Syllabus (CEE 361)] \n
+[documents/finite_element_methods.pdf Syllabus (CEE 513)] 
+
+
+

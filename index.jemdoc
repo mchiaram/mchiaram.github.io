@@ -1,0 +1,34 @@
+# jemdoc: menu{MENU}{index.html}
+
+== What we do					
+			In the Computational Mechanics Lab we are interested in developing, advancing, and leveraging numerical tools, such as finite element methods, numerical optimization techniques, as well as machine learning algorithms, to support the advancement of engineering design.
+		 
+			Particular emphasis of the work we do is on numerical methods for simulating damage and fracture, largely deforming inelastic solids, viscoplastic fluids, as well as fluid-structure interaction. The development of this numerical tools are driven by applications, for example, in the context of energy resources engineering, geophysics \& climate modeling, hazard modeling, as well as defense.
+			
+			Some of the past and on-going work is described in this webpage. More to come soon! 
+
+
+== News
+{{<div style="max-height:20vh; overflow:scroll;">}}
+
+
+- \[Sep 7, 2017] Welcome to [people.html Tianju, Olek, Vivek (belated), and Andrew] who join the CMG.
+
+- \[March 6, 2017] Welcome to [documents/PorcuCV.pdf Roberto Porcu] who joins as a Post-doctoral associate.
+
+- \[Feb 4, 2017] [https://www.princeton.edu/cee/people/display_person/?netid=mmc3 Maurizio M. Chiaramonte] became affiliated with the [http://materials.princeton.edu Princeton Institute for the Science and Technology of Materials]
+
+- \[ Feb 1, 2017\] [https://www.princeton.edu/cee/people/display_person/?netid=mmc3 Maurizio M. Chiaramonte] formally joins as an Assistant Professor the [https://www.princeton.edu/cee/ Department of Civil and Environmental Engineering @ Princeton University]
+{{</div>}}
+
+== Upcoming Events
+{{<div style="max-height:20vh; overflow:scroll;">}}
+- \[July 25-28, 2017\] Maurizio M. Chiarmonte will be presenting @ SES 2017 as well as organizing and chairing a minisiposium on the [http://www.northeastern.edu/ses2017/symposium-i-a-technical-program/ Theoretical, Experimental and Computational Aspects of Fracture Mechanics] @ Northeastern University in Boston, MA
+- \[July 17-20\] Maurizio M. Chiaramonte will be giving a talk @ USNCCM in Montreal, Canada
+- \[July 5-7, 2017\] Maurizio M. Chiarmonte will participate in the [http://u53037a.matapp.unimib.it/POEMS2017/accommodation.shtml Polytopal Element Methods in Mathematics and Engineering workshop] in Milano, Italy
+- \[June 13-16, 2017\] Maurizio M. Chiarmonte will be giving a talk @ CFRAC 2017, Nantes, France 
+- \[June 4-7, 2017\] Maurizio M. Chiarmonte will be giving a talk @ EMI 2017, San Diego, CA  
+- \[Feb 14, 2017\] Maurizio M. Chiarmonte will be giving a talk @ the [http://www.mathematics.pitt.edu/seminar-colloquia-event/mapped-finite-element-methods-higher-order-methods-simulating-curvilinear-cr University of Pittsburgh, Dept. of Mathematics]
+{{</div>}}
+
+

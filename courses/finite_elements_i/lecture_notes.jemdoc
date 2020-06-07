@@ -1,0 +1,61 @@
+# jemdoc: menu{MENU}{lecture_notes.html}
+
+== Lecture Notes
+
+
+-  [documents/notes/lecture_1.pdf Lecture 1 - Vectors] 
+-  [documents/notes/lecture_2.pdf Lecture 2 - Vectors + Tensors] 
+-  [documents/notes/lecture_3.pdf Lecture 3 - More Tensors] 
+-- [documents/precepts/intro_python.ipynb Jupyter Notebook on Intro to Python]
+-  [documents/notes/lecture_4.pdf Lecture 4 - More Tensors] 
+-- [documents/code/tensors.ipynb Jupyter Notebook on Tensors]
+-  [documents/notes/lecture_5.pdf Lecture 5 - Review of PDEs] 
+-  [documents/notes/lecture_6.pdf Lecture 6 - Intro to the truss problem] 
+-  [documents/notes/lecture_7.pdf Lecture 7 - Intro to matrix trusses] 
+-  [documents/notes/lecture_8.pdf Lecture 8 - Matrix trusses & constraints] 
+-- [documents/code/1d_truss.ipynb Jupyter Notebook on trusses]
+-  [documents/notes/lecture_9.pdf Lecture 9 - Intro to nD trusses] 
+-- [documents/code/2d_truss.ipynb Jupyter Notebook on nD trusses]
+-  [documents/notes/lecture_10.pdf Lecture 10 - nD Trusses and constraints] 
+-  [documents/notes/lecture_11.pdf Lecture 11 - Beams]
+--  [documents/handouts/review_beams.pdf Slides on beams equation]
+-  [documents/notes/lecture_12.pdf Lecture 12 - 2D Beams]
+--  [documents/handouts/frame_elements.pdf Slides on 2D beams]
+-  [documents/notes/lecture_13.pdf Lecture 13 - Intro to finite element methods]
+-  [documents/notes/lecture_14.pdf Lecture 14 - Basis functions]
+-- [documents/code/1D_example_fenics.ipynb Jupyter Notebook on 1D FEA using FEniCS]
+-  [documents/notes/lecture_15.pdf Lecture 15 - The element view]
+-  [documents/notes/lecture_16.pdf Lecture 16 - Review of the finite element roadmap]
+-  [documents/handouts/structure_of_fe_code.pdf Lecture 17 - Structure of fe code]  and [documents/handouts/finite_elements.pdf more FE ]
+- [documents/notes/lecture_18.pdf Lecture 18 - Finite elements in n-D - the poisson problem]
+--  [documents/handouts/finite_elements_2d.pdf Slides on nD Finite Elements]
+- [documents/notes/lecture_19.pdf Lecture 19 - Hexahedral elements]
+--  [documents/handouts/quadrilateral_elements.pdf Slides on hexahedral elements]
+- [documents/notes/handouts/triangular_elements.pdf.pdf Lecture 20 - Simplicial elements]
+- [documents/notes/lecture_21.pdf Lecture 21 - Linear elasticity]
+- [documents/notes/lecture_22.pdf Lecture 22 - Nearly and fully incompressible elasticity]
+-- [documents/code/standard_elasticity.py Nearly incompressible FEniCS code]
+-- [documents/code/incompressible_elasticity.py Incompressible FEniCS code]
+
+
+
+
+
+
+== Lecture Slides 
+
+-  [documents/handouts/lecture_0.pdf Lecture 0 - Class logistics] 
+#-  [documents/handouts/review_beams.pdf Beam] 
+#-  [documents/handouts/annotated_global_assembly.pdf Global Assembly]  
+#-  [documents/handouts/annotated_frame_elements.pdf Frame Elements]  
+#-  [documents/handouts/finite_elements.pdf Finite Element in One-Dimension] 
+#-  [documents/handouts/finite_elements_2d.pdf Finite Element in Two-Dimension] 
+#-  [documents/handouts/quadrilateral_elements.pdf Quadrilateral Elements] 
+#-  [documents/handouts/triangular_elements.pdf Triangular Elements] 
+#-  [documents/handouts/element_arrays.pdf Element Arrays] 
+#-  [documents/handouts/structure_of_fe_code.pdf Structure of FE Code] 
+
+== Additional Resources 
+
+- [documents/code/1d_truss.ipynb Jupyter Notebook on trusses]
+- [https://catalog.princeton.edu/catalog/10830559 Additional tensor reading (Chapter 2)] available on-line for free to Princeton affiliates

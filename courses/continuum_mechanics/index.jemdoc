@@ -1,0 +1,41 @@
+# jemdoc: menu{MENU}{index.html}
+
+
+== Course Overview 
+
+The course covers the fundamentals of the mechanics and thermodynamics of continua. It begins by reviewing concepts of tensor analysis on manifolds and tensor calculus. It then proceed by developing the fundamental concepts of the kinematics of a deforming continuum. The notion of stress is then intro- duced and various measures of stress, with their respective energy-conjugate strain measures, will be discussed. Balance laws will be presented discussing conservation of mass, balance of momentum and moment of momentum, as well as energy. Balance of energy in thermodynamics will also be discussed alongside the restrictions of the second law on constitutive theories. Consti- tutive theories will be discussed and specific examples will be explored. Variational principles will be presented and the Euler-Lagrange equations will be re-connected with balance laws
+
+[documents/syllabus_continuum.pdf Syllabus]
+
+
+== Logistics 
+
+*Lectures:* MW 1:30pm-2:50pm, Friend 204 \n
+
+*Instructor:* Maurizio M. Chiaramonte \n
+Email: [mailto:chiaramonte@princeton.edu chiaramonte at princeton.edu] \n
+Office hours: MW 3:00pm - 4:00pm (or by email) E324\n
+
+== News
+{{<div style="height:10vh; overflow:scroll;">}}
+- \[May. 4, 2018\] Grades posted on blackboard
+- \[May. 4, 2018\] [homeworks.html All homework solutions updated]
+- \[May. 4, 2018\] [lecture_notes.html Lecture updated]
+- \[Mar. 5, 2018\] [lecture_notes.html Lecture updated]
+- \[Mar. 5, 2018\] [documents/homeworks/homework_2.pdf Homework \# 2]  posted
+- \[Feb. 16, 2018\] [documents/homeworks/homework_1.pdf Homework \# 1]  posted
+- \[Feb. 19, 2018\] [lecture_notes.html Lecture notes] added
+
+
+{{</div>}}
+
+== Upcoming Events
+{{<div style="height:10vh; overflow:scroll;">}}
+- \[May. 16, 2018\] Final Exam @ 1:30pm, Friend 204
+- \[Mar. 26, 2018\] Midterm Exam 
+{{</div>}}
+
+
+
+
+

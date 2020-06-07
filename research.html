@@ -1,0 +1,150 @@
+<link type='text/css' rel='stylesheet' href='stylesheets/style.css'/>
+<link type='text/css' rel='stylesheet' href='stylesheets/style_research.css'/>
+
+
+<div>
+				<div  >
+					
+			In the Computational Mechanics Lab we are interested in developing, advancing, and leveraging numerical tools, such as finite element methods, numerical optimization techniques, as well as machine learning algorithms, to support the advancement of engineering design.<br>
+		 
+			Particular emphasis of the work we do is on numerical methods for simulating damage and fracture, largely deforming inelastic solids, viscoplastic fluids, as well as fluid-structure interaction. The development of this numerical tools are driven by applications, for example, in the context of hazard modeling, energy resources engineering, as well as defense.
+			<br>
+			Some of the past and on-going work is described below. More to come soon! 
+				</div>
+	
+	<div class='researchsnapshot' id='mfem'>
+	<h1>Mapped Finite Element Methods</h1>
+
+	The solutions of many problems in engineering and sciences are plagued by irregular solutions, namely, one of their derivatives possesses a singularity. Some examples are the elasticity fields in fracture mechanics, the flow of fluids in domains with sharp features, as well as the potential and wave function in the context of density functional theory. 
+		<img style='width:40%;' align='right' src='figures/research/mapped_finite_element_methods/map_example.pdf'>
+
+	The irregularity of these solutions renders them very hard to approximate using standard polynomial basis. More specifically, the convergence rates of finite element approximations deteriorate, resulting in the need of extremely refined discretizations (often computationally unfeasible) to obtain a converged solution.
+
+	What Mapped Finite Element Methods provide is a novel approach whereby re-parameterizing the domain of interest and attempting to solve the original problem reformulated over the re-parameterized domain allows to employ standard finite element methods while recovering optimal rates of convergence; hence, by simply reformulating the problem in a clever way one can obtain very accurate approximations to the original problem for no computational over cost. Effectively these are optimally convergent solutions for free! 
+
+	We have developed the method for cracks and re-entrant corner problems. Current ongoing work is its extension to three-dimensions, the application to Khon-Sham Density Functional Theory problems in real space, as well as other applications in fluid dynamics for problems with evolving domains.
+	<h2>References</h2>
+<table>
+<tr>
+<td class="bibtexitem">
+Maurizio&nbsp;M. Chiaramonte, Yongxing Shen, and Adrian&nbsp;J. Lew.
+ Mapped finite element methods: High-order approximations of problems
+  on domains with cracks and corners.
+ <em>International Journal for Numerical Methods in Engineering</em>,
+  2017.
+[&nbsp;<a href="journals_bib.html#Chiaramonte2017">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1002/nme.5486">DOI</a>&nbsp;| 
+<a href="http://doi.wiley.com/10.1002/nme.5486">http</a>&nbsp;]
+
+</td>
+</tr>
+<tr>
+<td class="bibtexitem">
+Maurizio&nbsp;M. Chiaramonte. Mapped finite element methods for three-three dimensional problems with line singularities.
+ <em>In Preparation</em>,
+  2017.
+[&nbsp;<a href="journals_bib.html#Chiaramonte2017">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1002/nme.5486">DOI</a>&nbsp;| 
+<a href="http://doi.wiley.com/10.1002/nme.5486">http</a>&nbsp;]
+
+</td>
+</tr>
+<tr>
+<td class="bibtexitem">
+Maurizio&nbsp;M. Chiaramonte, V. Gavini, and Adrian&nbsp;J. Lew. Optimally convergent finite element methods for real-space Kohn-Sham density functional theory calculations.
+ <em>In Preparation</em>,
+  2017.
+[&nbsp;<a href="journals_bib.html#Chiaramonte2017">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1002/nme.5486">DOI</a>&nbsp;| 
+<a href="http://doi.wiley.com/10.1002/nme.5486">http</a>&nbsp;]
+</td>
+</tr>
+<tr>
+<td class="bibtexitem">
+Maurizio&nbsp;M. Chiaramonte and E.S. Gawlik. Resolving moving boundary layers with time-dependent auxiliary mappings.
+ <em>In Preparation</em>,
+  2017.
+[&nbsp;<a href="journals_bib.html#Chiaramonte2017">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1002/nme.5486">DOI</a>&nbsp;| 
+<a href="http://doi.wiley.com/10.1002/nme.5486">http</a>&nbsp;]
+</td>
+</tr>
+
+
+</table>
+
+	</div>
+	
+	<div class='researchsnapshot'>
+	<h1>Interaction Integrals Functionals</h1>
+	<img style='width:40%;' align='left' src='figures/research/interaction_integrals/mesh_domain.pdf'>
+	The simulation of crack propagation relies on the evaluation of the  <em>stress intensity factors</em> (sif). The sifs are needed both for the determination of whether a crack is growing, as well as its direction of propagations. The reliable computation of these quantities is rather challenging and it must be performed carefully to ensure (rapid) convergence. We developed a family of <em>interaction integral functionals</em> that yield convergent sifs with rates that double the one of the energy norm of the solution. This is another motivator for the use of the above described mapped finite element methods such that, rather than obtaining only first order convergence for the sifs, we can obtain arbitrarily high rates of convergence and extremely accurate evaluations of the sifs.
+		<h2>References</h2>
+<table>
+	<tr>
+
+	<td class="bibtexitem">
+Maurizio&nbsp;M. Chiaramonte, Yongxing Shen, Leon&nbsp;M. Keer, and Adrian&nbsp;J. Lew.
+ Computing stress intensity factors for curvilinear cracks.
+ <em>International Journal for Numerical Methods in Engineering</em>,
+  104(4):260--296, oct 2015.
+[&nbsp;<a href="journals_bib.html#Chiaramonte2015">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1002/nme.4938">DOI</a>&nbsp;| 
+<a href="http://doi.wiley.com/10.1002/nme.4938">http</a>&nbsp;]
+
+	</td><tr>
+<td class="bibtexitem">
+Ramsharan Rangarajan, Maurizio&nbsp;M. Chiaramonte, Michael&nbsp;J. Hunsweck, Yongxing
+  Shen, and Adrian&nbsp;J. Lew.
+ Simulating curvilinear crack propagation in two dimensions with
+  universal meshes.
+ <em>International Journal for Numerical Methods in Engineering</em>,
+  102(3-4):632--670, apr 2015.
+[&nbsp;<a href="journals_bib.html#Rangarajan2015">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1002/nme.4731">DOI</a>&nbsp;| 
+<a href="http://arxiv.org/abs/1010.1724">arXiv</a>&nbsp;| 
+<a href="http://doi.wiley.com/10.1002/nme.4731">http</a>&nbsp;]
+
+</td></tr>
+<tr>
+<td class="bibtexitem">
+Maurizio&nbsp;M. Chiaramonte, Evan&nbsp;S. Gawlik, Hardik Kabaria, and Adrian&nbsp;J. Lew.
+ Universal Meshes for the Simulation of Brittle Fracture and Moving
+  Boundary Problems.
+ In <em>Innovative Numerical Approaches for Multi-Field and
+  Multi-Scale Problems</em>, pages 115--134. Springer International Publishing,
+  2016.
+[&nbsp;<a href="journals_bib.html#Chiaramonte2016">bib</a>&nbsp;| 
+<a href="http://dx.doi.org/10.1007/978-3-319-39022-2_6">DOI</a>&nbsp;| 
+<a href="http://link.springer.com/10.1007/978-3-319-39022-2{\_}6">http</a>&nbsp;]
+
+</td>
+</tr>
+
+
+</tr>
+	</table>
+	</div>
+
+
+	<div class='researchsnapshot'  id='crack_path_instabilites'>
+	<h1>Crack path instabilities in coupled problems</h1>
+	<img style='width:40vw;' align='right' src='figures/research/quenched_plate/cracks.pdf'>	
+	Beyond the development of numerical tools, we are very curios to understand the physics of many extremely interesting problems in mechanics. An example is the one of the formation of wavy crack patterns in rapidly cooled heat conductors subjected to large temperature gradients.  The peculiar characteristic of these instabilities is that the speed of propagation is several order of magnitudes lower that the Rayleigh wave speed. Experimental studies have shown the dependence of the instabilities on certain geometrical, material, and experimental parameters (e.g. plate width, material toughness, speed of quenching etc.). By perturbing this parameters, cracks are observed to propagate along a straight line, oscillate with a periodic sinusoidal or semi-circle like morphology, or propagate in a chaotic manner. As ongoing work we are trying to understand what drives these instabilities and how can this phenomenon can be exploited in engineering applications.
+	<h2>References</h2>
+<table>
+	<tr>
+	<td class="bibtexitem">
+Maurizio&nbsp;M. Chiaramonte, Leon&nbsp;M. Keer, and Adrian&nbsp;J. Lew.
+ Numerical analyses of crack path instabilities in quenched plates.
+ <em>Journal of the Mechanics and Physics of Solids</em>, In preparation,
+  2017.
+[&nbsp;<a href="journals_bib.html#Chiaramonte2017a">bib</a>&nbsp;]
+
+</td>
+	</tr>
+	</table>
+	</div>
+
+</div>
+

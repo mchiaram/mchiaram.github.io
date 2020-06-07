@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+
+html {
+		font-family: 'Source Sans Pro';
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    display: inline-block;
+    text-align: left;
+	}
+
+.div
+{
+ text-align:'left';
+ vertical-align:'top';
+ font-family: 'Source Sans Pro';
+}
+
+.div h1
+{
+  text-align: left;
+}
+
+.cropped {
+	overflow:hidden;
+  width: 20vw;
+  height: 30vh;
+	vertical-align:center;
+	text-align:center;
+}
+
+.researchsnapshot {
+	background: rgba(220,220,240,0.125); 
+	border-radius: 5px;
+}

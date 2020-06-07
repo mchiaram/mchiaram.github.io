@@ -1,0 +1,29 @@
+# jemdoc: menu{MENU}{publications.html}
+
+== Papers
+{{* Group member}}
+
+:{Chiaramonte, Maurizio M. and Keer, Leon M. and Lew, Adrian J. Numerical analyses of crack path instabilities in quenched plates. /Journal of the Mechanics and Physics of Solids/,In prep, 2018. }
+
+:{Porcu, Roberto* and Chiaramonte, Maurizio M.  Orthogonality constrained gradient reconstruction for the computation of superconvergent linear functionals /BIT Numerical Mathematics/, Under Review, 2018. }
+
+
+:{Chiaramonte, Maurizio M. and Shen, Yongxing and Lew, Adrian J. Mapped finite element methods: High-order approximations of problems on domains with cracks and corners. /International Journal for Numerical Methods in Engineering/, , 2017. \[ [journals_bib.html\#chiaramonte2017 bib ]| [http://dx.doi.org/10.1002/nme.5486 DOI ] | [http://doi.wiley.com/10.1002/nme.5486 http ] \]}
+
+:{Chiaramonte, Maurizio M. and Gawlik, Evan S. and Kabaria, Hardik and Lew, Adrian J. Universal Meshes for the Simulation of Brittle Fracture and Moving Boundary Problems. /Innovative Numerical Approaches for Multi-Field and Multi-Scale Problems/, Springer International Publishing, :115--134, 2016. \[ [journals_bib.html\#chiaramonte2016 bib ]| [http://dx.doi.org/10.1007/978-3-319-39022-2_6 DOI ] | [http://link.springer.com/chapter/10.1007\%2F978-3-319-39022-2_6 http ] \]}
+
+:{Chiaramonte, Maurizio M. and Shen, Yongxing and Keer, Leon M. and Lew, Adrian J. Computing stress intensity factors for curvilinear cracks. /International Journal for Numerical Methods in Engineering/, 104(4):260--296, 2015. \[ [journals_bib.html\#chiaramonte2015 bib ]| [http://dx.doi.org/10.1002/nme.4938 DOI ] | [http://doi.wiley.com/10.1002/nme.4938 http ] \]}
+
+:{Rangarajan, Ramsharan and Chiaramonte, Maurizio M. and Hunsweck, Michael J. and Shen, Yongxing and Lew, Adrian J. Simulating curvilinear crack propagation in two dimensions with universal meshes. /International Journal for Numerical Methods in Engineering/, 102(3-4):632--670, 2015. \[ [journals_bib.html\#rangarajan2015 bib ]| [http://dx.doi.org/10.1002/nme.4731 DOI ] | [http://doi.wiley.com/10.1002/nme.4731 http ] \]}
+
+:{Chiaramonte, Maurizio M. and Arduino, Pedro and Lehman, Dawn E. and Roeder, Charles W. Seismic analyses of conventional and improved marginal wharves. /Earthquake Engineering and Structural Dynamics/, 42(10):1435--1450, 2013. \[ [journals_bib.html\#chiaramonte2013 bib ]| [http://dx.doi.org/10.1002/eqe.2280 DOI ] | [http://doi.wiley.com/10.1002/eqe.2280 http ] \]}
+
+== Thesis
+
+:{Chiaramonte, Maurizio M. /Mapped Finite Element Methods with applications to the simulation of brittle fracture propagation/. Ph.D. Thesis, Stanford University, 2016. \[ [https://searchworks.stanford.edu/view/11849376 http ] \]}
+
+:{Chiaramonte, Maurizio M. /An analysis of conventional and improved marginal wharves/. M.S. Thesis, University of Washington, 2011. \[ [https://catalyst.uw.edu/workspace/file/download/c3a1a3455684ee190d9577de77d6b83c074de1f321b96b4a4067a65fe89c3924 http ] \]}
+
+== Others
+
+:{Chiaramonte, Maurizio M. and Kiener, Matt /Solving differential equations using neural networks/ 2013 \[ [http://cs229.stanford.edu/proj2013/ChiaramonteKiener-SolvingDifferentialEquationsUsingNeuralNetworks.pdf pdf] \] } 

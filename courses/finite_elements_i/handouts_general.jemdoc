@@ -1,0 +1,10 @@
+# jemdoc: menu{MENU}{handouts_general.html}
+
+== General Handouts
+
+- [documents/finite_element_methods_361.pdf Syllabus CEE 361] 
+- [documents/finite_element_methods.pdf Syllabus CEE 513] 
+- [documents/handouts/lecture_0.pdf Introductory Slides] 
+#- [documents/handouts/installation.pdf Python \& LaTeX Installation]
+#- [documents/handouts/1d_truss.ipynb Jupyter Nb for 1D truss]
+#- [documents/handouts/fenics_setup_adroit.pdf FEniCS on Adroit] 

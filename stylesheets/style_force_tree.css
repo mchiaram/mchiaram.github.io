@@ -1,0 +1,39 @@
+.svg-container {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    overflow: hidden;
+		width:100vw;
+		height:100vh;
+}
+
+.nodetext {
+  fill: #252929;
+  font-weight: bold;
+  text-shadow: 0 0 0.2em white;
+}
+
+.node text {
+  pointer-events: none;
+  font: 30px sans-serif;
+}
+
+line.link {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+
+div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 60px;					
+    height: 28px;					
+    padding: 2px;				
+    font: 12px sans-serif;		
+    background: lightsteelblue;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}

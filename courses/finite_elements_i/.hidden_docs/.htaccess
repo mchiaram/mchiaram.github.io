@@ -1,0 +1,4 @@
+AuthUserFile /volume1/web/.htpasswdfinite_hidden
+AuthName "Please Log In"
+AuthType Basic
+Require valid-user

@@ -1,0 +1,16 @@
+# jemdoc: menu{MENU}{precepts.html}
+
+== Precepts 
+- Precept 1 \& 2
+	-- [documents/precepts/intro_python.ipynb Jupyter Notebook on Intro to Python]
+	-- [documents/precepts/precept_1.pdf Slides on Python and LaTeX] 
+#-  [documents/precepts/precept_2.pdf Precept \# 2]  
+-  [documents/precepts/precept_3.pdf Precept \# 3]  
+-  [documents/precepts/precept_4.pdf Precept \# 4]  
+-  [documents/precepts/precept_5.pdf Precept \# 5]  
+-  [documents/precepts/precept_6.pdf Precept \# 6]  
+-  [documents/precepts/precept_7.pdf Precept \# 7]  
+-  [documents/precepts/precept_8.pdf Precept \# 8]  
+-  [documents/precepts/precept_9.pdf Precept \# 9]  
+-  [documents/precepts/precept_10.pdf Precept \# 10]  
+-  [documents/precepts/precept_11.pdf Precept \# 11]  

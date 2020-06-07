@@ -1,0 +1,4 @@
+AuthUserFile /volume1/web/.htpasswdcontinuum
+AuthName "Please Log In"
+AuthType Basic
+Require valid-user

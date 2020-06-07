@@ -1,0 +1,160 @@
+% Packages and stuff
+\usepackage[ruled,vlined]{algorithm2e}
+\usepackage{algpseudocode}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{booktabs}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{graphicx}
+\usepackage[skins]{tcolorbox}
+\usepackage{mathrsfs}
+\usepackage{subfig}
+\usepackage[hidelinks,pdfauthor = {Maurizio M. Chiaramonte}]{hyperref}
+\usepackage{bm}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage[explicit]{titlesec}
+\usepackage{cmbright}
+\renewcommand{\familydefault}{\sfdefault}
+
+%%% Bibliography
+\ifcsname#1\endcsname
+\ifnum\bibliographynatbib=1
+\usepackage[numbers]{natbib}
+\else
+
+\usepackage[natbib=true,maxnames=5,style=numeric,maxcitenames=1,firstinits=true,defernumbers,backend=biber,	sorting=none,
+    url=false, 
+    doi=false,
+    eprint=false]{biblatex}
+\fi
+\else 
+\usepackage[natbib=true,maxnames=5,style=numeric,maxcitenames=1,firstinits=true,defernumbers,backend=biber,	sorting=none,
+    url=false, 
+    doi=false,
+    eprint=false]{biblatex}
+\fi
+
+\usepackage{multicol}
+\usepackage{stmaryrd}
+\usepackage{cancel}
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}  
+\usepackage{appendix}
+
+%%tikz 
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{calc}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{decorations.markings}
+\usetikzlibrary{decorations.pathreplacing}
+\usetikzlibrary{decorations.text}
+
+\usetikzlibrary{external}
+\tikzexternalize[prefix=tikz/]
+\tikzexternaldisable
+
+\usetikzlibrary{positioning}
+\usepackage{pdftexcmds}
+\usetikzlibrary{positioning}
+\usetikzlibrary{shapes}
+\usetikzlibrary{spy}
+
+\usetikzlibrary{knots}
+
+\usetikzlibrary{mindmap}
+\usetikzlibrary{patterns}
+
+%% pgfplots
+\usepackage{pgfplots}
+\usepackage{pgffor}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=newest}
+\usepgfplotslibrary{fillbetween}
+\pgfkeys{/tikz/.cd,
+  background color/.initial=white,
+  background color/.get=\backcol,
+  background color/.store in=\backcol,
+}
+\pgfplotsset{compat = newest}
+\pgfplotsset{
+    discard if larger/.style 2 args={
+        x filter/.code={
+          \edef\tempa{\thisrow{#1}}
+          \edef\tempb{#2}
+					\ifnum\tempa>\tempb
+					\def\pgfmathresult{inf}
+					\else\fi}
+			}
+		}
+\pgfplotsset{
+    discard if not/.style 2 args={
+        x filter/.code={
+            \edef\tempa{\thisrow{#1}}
+            \edef\tempb{#2}
+            \ifx\tempa\tempb
+            \else
+                \def\pgfmathresult{inf}
+            \fi
+        }
+    }
+}
+\tikzset{
+    mark position/.style args={#1(#2)}{
+        postaction={
+            decorate,
+            decoration={
+                markings,
+                mark=at position #1 with \coordinate (#2);
+            }
+        }
+    }
+}
+\tikzset{insert node/.style args={#1 at #2}{
+    postaction=decorate,
+    decoration={
+      markings,
+      mark= at position #2
+        with
+        {
+         #1
+        }
+    }
+  }
+}
+\usepgfplotslibrary{patchplots}
+
+
+
+\usepackage{chngcntr}
+\usepackage{etoolbox}
+\usepackage{lipsum}
+\newtheoremstyle{mystyle}
+    {\topsep}                    % Space above
+    {\topsep}                    % Space below
+    {\itshape}                   % Body font
+    {}                           % Indent amount
+    {\scshape}                   % Theorem head font
+    {.}                          % Punctuation after theorem head
+    {.5em}                       % Space after theorem head
+    {}  % Theorem head spec (can be left empty, meaning ‘normal’)\theoremstyle{mystyle}
+
+
+
+
+
+
+\makeatletter
+\providecommand*{\input@path}{}
+\g@addto@macro\input@path{{./}}% append
+\makeatother
+
+
+\usepackage{cmbright}

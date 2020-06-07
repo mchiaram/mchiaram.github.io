@@ -1,0 +1,102 @@
+
+from dolfin import *
+import numpy as np
+import matplotlib.pyplot as plt
+
+if __name__ == "__main__":
+
+	#Order of the polynomial interpolation
+	order = 1
+
+	# Space dimension in which we are solving the problem
+	space_dim = 2
+
+	# Create the mesh object
+	lenght = 1. 
+	height = lenght/10.
+	cell_size = 0.025
+	ndivx = int(lenght/cell_size)
+	ndivy = int(height/cell_size)
+
+	mesh = RectangleMesh(Point(0,0), Point(lenght, height), ndivx, ndivy, "right")
+
+	# Define the function space
+	# Define a vector element for displacement
+	V = VectorFunctionSpace(mesh, "Lagrange", 1)	
+	
+	# Define the boundary condition
+
+	# First describe the dirichlet boundary
+	# The left edge is clammed
+	class dirichlet_boundary(SubDomain):
+		def inside(self, x, on_boundary):
+				return abs(x[0]) < DOLFIN_EPS and on_boundary 
+			
+	# Describe the Neumann boundary
+	class neumann_boundary(SubDomain):
+		def inside(self, x, on_boundary):
+				return abs(x[0]-lenght) < DOLFIN_EPS and on_boundary 
+
+	# Next we mark the boundaries for neumann bc
+	boundaries = MeshFunction("size_t", mesh, mesh.topology().dim() - 1 )
+	dirichlet = dirichlet_boundary()
+	boundaries.set_all(3)
+	neumann = neumann_boundary()
+	dirichlet.mark(boundaries, 0)
+	neumann.mark(boundaries, 1)
+	ds = Measure("ds", subdomain_data=boundaries)
+
+	file_mesh = File('mesh.pvd')
+	file_mesh << boundaries
+
+	# We specify the dirichlet boundary on the displacement
+	bc = DirichletBC(V, Constant((0.0,0.0)), dirichlet_boundary())
+
+	# Specify the test and trial function
+	u = TrialFunction(V)
+	v = TestFunction(V)
+
+	# Define the traction term
+	t = Constant((0.0,1.))
+		
+	# Define the body force term
+	f = Constant((0.0,0.0))
+	
+	# Define the forcing functional
+	F = dot(t,v)*ds(1) -dot(f,v)*dx 
+
+	# Save the results
+	file_u = File("displacement.pvd")
+
+	for nu in np.linspace(0.45,0.5-1.e-9,10):
+		print(nu)
+		
+		# Define stress
+		
+		# The material parameters
+		E = 1.0 # Young's modulus
+	
+		# Compute the lame` parameters
+		mu = Constant(E/(2.0*(1.0+nu)) )
+		lmbda = Constant(2.0*mu*nu/(1.0-2.0*nu))
+	
+		# Define the strain
+		eps = sym(grad(u))
+	
+		# The stress
+		sigma = lmbda*tr(eps)*Identity(space_dim)+2.0*mu*eps
+	
+		# Define the variational form
+		a = inner(sigma,grad(v))*dx
+	
+		# Compute the soultion
+		uh = Function(V)
+	
+		solve(a == F, uh, bcs=bc)
+	
+		# Rename the functions
+		uh.rename('displacement', 'displacement')
+		
+		# Save the file
+		file_u << (uh,nu)
+	

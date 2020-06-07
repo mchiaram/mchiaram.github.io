@@ -1,0 +1,17 @@
+# jemdoc: menu{MENU}{homeworks.html}
+
+== Homeworks 
+[documents/tex_files/plain_homework.tex Here] you can find a template LaTeX file that you may use for your homework. This two utility files ([documents/tex_files/useful_packages.tex useful packages] and [documents/tex_files/short_notation.tex short notation]) are loaded as auxiliary files.
+
+-  [documents/homeworks/homework_1.pdf Homework \# 1] 
+-- [documents/homeworks/homework_1_solution.pdf (Solution)]
+-  [documents/homeworks/homework_2.pdf Homework \# 2]  
+-- [documents/homeworks/homework_2_solution.pdf (Solution)]
+-  [documents/homeworks/homework_3.pdf Homework \# 3]  
+-- [documents/homeworks/homework_3_solution.pdf (Solution)]
+-  [documents/homeworks/homework_4.pdf Homework \# 4]  
+-- [documents/homeworks/homework_4_solution.pdf (Solution)]
+
+== Project 
+
+- [documents/homeworks/project.pdf Project]

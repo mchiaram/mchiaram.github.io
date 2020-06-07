@@ -1,0 +1,49 @@
+\documentclass[10pt]{article}
+
+\input{useful_packages}
+\input{short_notation}
+
+\title{Homework}
+
+\date{\today}
+
+\author{CEE 361-513: Introduction to Finite Element Methods}
+
+\hypersetup{
+pdftitle= {\@title},
+pdfauthor = {\@author},
+pdfsubject = {},
+pdfkeywords = {},
+pdfmoddate= {\@date},
+pdfcreator = {\@author},
+pdftoolbar=true,        
+pdfmenubar=true
+}
+
+
+
+\makeatletter
+\def\@maketitle{
+\begingroup
+\centering
+{
+{\Large \MakeUppercase{\@title}\par}
+\vskip 0.1\baselineskip
+{\normalsize\noindent\@author\par}
+\vskip 0.1\baselineskip
+{\normalsize\noindent Due:\par}
+}
+\endgroup
+}
+\makeatother
+
+\titleformat{\section}{\Large}{\MakeUppercase{Problem} \thesection}{1em}{\MakeUppercase{#1}}
+
+
+\begin{document}
+
+\maketitle
+
+
+\end{document}
+
